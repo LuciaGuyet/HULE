@@ -1,0 +1,200 @@
+
+header{
+    position: sticky;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.navbar-collapse{
+    flex-grow: initial;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: flex-start;
+    padding:20px ;
+    align-items: center;
+}
+
+.textos{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+}
+.summer{
+    font-size: 32px;  
+    align-items: center;
+}
+
+.verano{
+    font-size: 22px;
+    align-items: center;
+}
+
+.flex-imagenes{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    height: 500px;
+    width: auto;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul .bi{
+    font-size: 1.3rem;
+}
+
+
+/* SECCION CARTERAS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.precioynombre{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+}
+
+.nombre{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.precio{
+    font-size:14px;
+}
+
+
+/* SECCION BOLSOS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.precioynombre{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+}
+
+.nombre{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.precio{
+    font-size:14px;
+}
+
+/* SECCION LONAS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.precioynombre{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+}
+
+.nombre{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.precio{
+    font-size:14px;
+}
+
+
+/* SECCION SALE */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.precioynombre{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+}
+
+.nombre{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.precio{
+    font-size:14px;
+}
+
+
+/* SECCION QUIENES SOMOS */
+.titulos{
+    font-family: 'Mukta', sans-serif;
+    font-size: 25 px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parrafo{
+    font-family: 'Mukta', sans-serif;
+    font-size: 20 px;
+}
+
+main{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media only screen and (max-width: 576px) {}
