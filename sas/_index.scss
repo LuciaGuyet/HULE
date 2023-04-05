@@ -1,0 +1,30 @@
+/* aplico mixin */
+
+@mixin tamaños($width, $height){
+    width: $width;
+    height: $height;
+}
+
+
+.textos{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+}
+.winter{
+    font-size: 32px;  
+    align-items: center;
+}
+
+.invierno{
+    font-size: 22px;
+    align-items: center;
+}
+
+.flex-imagenes{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+@include tamaños(auto, 500px);
+}

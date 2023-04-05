@@ -1,0 +1,23 @@
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.precioynombre{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+}
+
+.nombre{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.precio{
+    font-size:14px;
+}
